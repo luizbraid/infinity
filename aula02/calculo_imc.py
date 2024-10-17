@@ -7,9 +7,9 @@ imc = round(peso/(altura**2))
 
 if imc < 18.5:
     print (f"Seu IMC é {imc} e classificado como Magreza")
-elif imc >= 18.5:
+elif imc >= 18.5 and imc < 25:
     print (f"Seu IMC é {imc} e classificado como Normal")
-elif imc >= 25:
+elif imc >= 25 and imc < 30:
     print (f"Seu IMC é {imc} e classificado como Sobrepeso")
 elif imc >= 30 and imc < 40:
     print (f"Seu IMC é {imc} e classificado como Obesidade")
